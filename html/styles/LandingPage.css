@@ -1,0 +1,29 @@
+body{
+    background-color: #1B2021;
+}
+
+#title{
+    font-family: 'Lobster', cursive;
+    color: #F75C03;
+display:block;
+        position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3em;
+    
+        
+    
+    
+}
+
+
+#text{
+    color: #E8F7EE;
+  display: block;
+        position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Droid Sans', sans-serif;
+}

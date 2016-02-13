@@ -1,0 +1,243 @@
+<HTML>
+<HEAD>
+<META name="description"
+	content="Violet UML Editor cross format document" />
+<META name="keywords" content="Violet, UML" />
+<META charset="UTF-8" />
+<SCRIPT type="text/javascript">
+	function switchVisibility() {
+		var obj = document.getElementById("content");
+		obj.style.display = (obj.style.display == "block") ? "none" : "block";
+	}
+</SCRIPT>
+</HEAD>
+<BODY>
+	This file was generated with Violet UML Editor 2.1.0.
+	&nbsp;&nbsp;(&nbsp;<A href=# onclick="switchVisibility()">View Source</A>&nbsp;/&nbsp;<A href="http://sourceforge.net/projects/violet/files/violetumleditor/" target="_blank">Download Violet</A>&nbsp;)
+	<BR />
+	<BR />
+	<SCRIPT id="content" type="text/xml"><![CDATA[<SequenceDiagramGraph id="1">
+  <nodes id="2">
+    <LifelineNode id="3">
+      <children id="4">
+        <ActivationBarNode id="5">
+          <children id="6"/>
+          <parent class="LifelineNode" reference="3"/>
+          <location class="Point2D.Double" id="7" x="30.0" y="90.0"/>
+          <id id="8" value="eb0a46fd-0980-4e31-ac6e-1f1b98d12922"/>
+          <revision>1</revision>
+          <backgroundColor id="9">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </backgroundColor>
+          <borderColor id="10">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </borderColor>
+          <textColor reference="10"/>
+        </ActivationBarNode>
+      </children>
+      <location class="Point2D.Double" id="11" x="240.0" y="0.0"/>
+      <id id="12" value="7559ec01-2b83-4881-848f-6a3d8696dd12"/>
+      <revision>1</revision>
+      <backgroundColor reference="9"/>
+      <borderColor reference="10"/>
+      <textColor reference="10"/>
+      <name id="13" justification="1" size="4" underlined="true">
+        <text>:Auth</text>
+      </name>
+    </LifelineNode>
+    <LifelineNode id="14">
+      <children id="15">
+        <ActivationBarNode id="16">
+          <children id="17"/>
+          <parent class="LifelineNode" reference="14"/>
+          <location class="Point2D.Double" id="18" x="30.0" y="210.0"/>
+          <id id="19" value="aa67a127-6293-4f51-bcb0-ba622af6ac16"/>
+          <revision>1</revision>
+          <backgroundColor reference="9"/>
+          <borderColor reference="10"/>
+          <textColor reference="10"/>
+        </ActivationBarNode>
+      </children>
+      <location class="Point2D.Double" id="20" x="490.0" y="0.0"/>
+      <id id="21" value="1447952b-80e9-465d-8308-ba0c63c80cbc"/>
+      <revision>1</revision>
+      <backgroundColor reference="9"/>
+      <borderColor reference="10"/>
+      <textColor reference="10"/>
+      <name id="22" justification="1" size="4" underlined="true">
+        <text>SERVER</text>
+      </name>
+    </LifelineNode>
+    <LifelineNode id="23">
+      <children id="24">
+        <ActivationBarNode id="25">
+          <children id="26"/>
+          <parent class="LifelineNode" reference="23"/>
+          <location class="Point2D.Double" id="27" x="30.0" y="80.0"/>
+          <id id="28" value="c9921c38-05b5-4fce-84b4-ee034889a4d4"/>
+          <revision>1</revision>
+          <backgroundColor reference="9"/>
+          <borderColor reference="10"/>
+          <textColor reference="10"/>
+        </ActivationBarNode>
+      </children>
+      <location class="Point2D.Double" id="29" x="90.0" y="0.0"/>
+      <id id="30" value="9d4e15c6-b80b-4e71-bc4b-cfb4ffc86186"/>
+      <revision>1</revision>
+      <backgroundColor reference="9"/>
+      <borderColor reference="10"/>
+      <textColor reference="10"/>
+      <name id="31" justification="1" size="4" underlined="true">
+        <text>USER</text>
+      </name>
+    </LifelineNode>
+  </nodes>
+  <edges id="32">
+    <CallEdge id="33">
+      <start class="ActivationBarNode" reference="5"/>
+      <end class="ActivationBarNode" reference="16"/>
+      <startLocation class="Point2D.Double" id="34" x="10.0" y="70.0"/>
+      <endLocation class="Point2D.Double" id="35" x="0.0" y="30.0"/>
+      <transitionPoints id="36"/>
+      <id id="37" value="51c926ac-0f07-43c6-8cbc-6b55968801fc"/>
+      <revision>1</revision>
+      <lineStyle name="SOLID"/>
+      <startArrowHead name="NONE"/>
+      <bentStyle name="AUTO"/>
+      <startLabel></startLabel>
+      <middleLabel>logout()</middleLabel>
+      <endLabel></endLabel>
+      <signal>false</signal>
+    </CallEdge>
+    <ReturnEdge id="38">
+      <start class="ActivationBarNode" reference="16"/>
+      <end class="ActivationBarNode" reference="5"/>
+      <startLocation class="Point2D.Double" id="39" x="0.0" y="30.0"/>
+      <endLocation class="Point2D.Double" id="40" x="10.0" y="110.0"/>
+      <transitionPoints id="41"/>
+      <id id="42" value="30d9504e-88b8-4dfa-8bae-18e0b1f996f7"/>
+      <revision>1</revision>
+      <startArrowHead name="NONE"/>
+      <bentStyle name="AUTO"/>
+      <startLabel></startLabel>
+      <middleLabel>response</middleLabel>
+      <endLabel></endLabel>
+    </ReturnEdge>
+    <CallEdge id="43">
+      <start class="ActivationBarNode" reference="25"/>
+      <end class="ActivationBarNode" reference="5"/>
+      <startLocation class="Point2D.Double" id="44" x="10.0" y="20.0"/>
+      <endLocation class="Point2D.Double" id="45" x="10.0" y="30.0"/>
+      <transitionPoints id="46"/>
+      <id id="47" value="d1bbcf91-b2d8-465b-b1d7-d53021f58da6"/>
+      <revision>1</revision>
+      <lineStyle name="SOLID"/>
+      <startArrowHead name="NONE"/>
+      <bentStyle name="AUTO"/>
+      <startLabel></startLabel>
+      <middleLabel>user logouts</middleLabel>
+      <endLabel></endLabel>
+      <signal>false</signal>
+    </CallEdge>
+    <ReturnEdge id="48">
+      <start class="ActivationBarNode" reference="5"/>
+      <end class="ActivationBarNode" reference="25"/>
+      <startLocation class="Point2D.Double" id="49" x="10.0" y="160.0"/>
+      <endLocation class="Point2D.Double" id="50" x="10.0" y="170.0"/>
+      <transitionPoints id="51"/>
+      <id id="52" value="5c3973e0-ac26-4780-8a49-1f6dec8f6e5f"/>
+      <revision>1</revision>
+      <startArrowHead name="NONE"/>
+      <bentStyle name="AUTO"/>
+      <startLabel></startLabel>
+      <middleLabel>response</middleLabel>
+      <endLabel></endLabel>
+    </ReturnEdge>
+  </edges>
+</SequenceDiagramGraph>]]></SCRIPT>
+	<BR />
+	<BR />
+	<IMG alt="embedded diagram image" src="data:image/png;base64,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" />
+</BODY>
+</HTML>

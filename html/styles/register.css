@@ -1,0 +1,58 @@
+body {
+    background-color: #1B2021;
+}
+
+a {
+    color: #F75C03;
+    text-decoration: none;
+}
+
+#title {
+    font-family: 'Lobster', cursive;
+    color: #F75C03;
+display:block;
+  text-align: center;
+    font-size: 2em;
+}
+
+#title h1 {
+    white-space: nowrap;
+}
+
+.container {
+    max-width: 100%;
+}
+
+#content {
+     position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top:0;
+}
+
+.log_in_form {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.loggaus{
+    text-align: center;
+}
+
+.loggaus ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.loggaus li {
+    margin-bottom: 5px;
+}
+
+.loggaus input {
+    font-size: 1.5em;
+}

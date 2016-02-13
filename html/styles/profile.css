@@ -1,0 +1,262 @@
+h3 {
+    color: white;
+    font-weight: normal;
+}
+
+#profile_picture{
+height: 136px;
+width: 136px;
+    
+}
+
+#basic_info{
+    position: absolute;
+    top:50px;
+    padding-left:10px;
+    margin: 0 0 0 5px;
+    display: inline-block;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #E8F7EE;
+}
+
+#basic_info li{
+    list-style-type: none;
+}
+
+#links {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#links > li {
+    display: inline;
+}
+
+#links a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-right: 4px;
+    background: linear-gradient(#b74300, #843100);
+    border-radius: 2px;
+}
+
+#links a.active {
+    background: linear-gradient(#FF5F02, #CC4C02);
+}
+
+#links > li > a:hover {
+    font-weight: bold;
+}
+
+#content table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#content table td {
+    padding: 1px 2px;
+    color: white;
+}
+
+#content table td:nth-child(2) {
+    text-align: right;
+}
+
+#content table input {
+    color: black;
+}
+
+#editprofile input {
+    width: 90%;
+    margin: 3px 0;
+}
+
+#editprofile input[type=submit] {
+    margin: 20px 0;
+    width: initial;
+}
+
+#content > a {
+    color: aquamarine;
+    display: table;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#last_workout {
+    text-align: center;
+    color: white;
+}
+
+.comment {
+    background-color: antiquewhite;
+    padding: 2px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.comment span {
+    display: block;
+}
+
+.commenter, .comment_date {
+    font-size: 0.8em;
+    display: block;
+}
+
+.comment_text {
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+.comment_date {
+    text-align: right;
+}
+
+/*------------PROFILE-STATS-CARD----------------*/
+
+.visible {
+    visibility: visible;
+}
+
+.selected {
+    background-color: aquamarine;
+    
+}
+
+#profile_stats_card {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 4px;
+}
+
+#profile_stats_card > nav ul {
+    text-align: justify;
+    margin: 0;
+    padding: 9px 0 0 0;
+}
+
+#profile_stats_card > nav ul:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#profile_stats_card > nav li {
+    display: inline;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 4px;
+    background-color: #696969;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.tabs a.active {
+    background-color: #adadad;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+
+#profile_stats_card > div {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #adadad;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+div.upload {
+    z-index: 5;
+    width: 157px;
+    height: 57px;
+    background: url(https://lh6.googleusercontent.com/-dqTIJRTqEAQ/UJaofTQm3hI/AAAAAAAABHo/w7ruR1SOIsA/s157/upload.png);
+    overflow: hidden;
+}
+
+div.upload input {
+    display: block !important;
+    width: 157px !important;
+    height: 57px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
+
+.profile_pictures {
+    width: 90%;
+    background-color: antiquewhite;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profile_pictures img {
+    margin: 5px;
+}
+
+#ePieChart {
+    width: 200px;
+    height: 200px;
+}
+
+#canvas_container {
+    width: 100%;
+    text-align: center;
+}
+
+#canvas_legend {
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+}
+
+/*------------KASUAALILAITTEILLE--------------*/
+
+@media only screen 
+  and (max-device-width: 342px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      #links > li {
+          display: block;
+          margin-bottom: 5px;
+      }
+      #links a {
+          display: block;
+          margin: 0;
+          border-radius: 0;
+      }
+      #profile_stats_card > nav ul {
+          padding: 0;
+      }
+      #profile_stats_card > nav li {
+          display: block;
+          margin-bottom: 5px;
+      }
+      #profile_stats_card > nav a {
+          display: block;
+          border-radius: 0;
+          text-align: center;
+      }
+      #profile_stats_card > div {
+          top: 126px;
+          border-radius: 0;
+      }
+      #canvas_legend {
+          display: block;
+          bottom: 0;
+          margin: 3px;
+      }
+}

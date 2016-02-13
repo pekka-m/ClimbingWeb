@@ -1,0 +1,146 @@
+
+@import url('nav_bar.css');
+
+
+
+       
+      html, body { height: 100%; margin: 0; padding: 0;}
+        #map-canvas{ height:50%; width:100%;
+            
+        top:45px;}
+
+.text{
+color: #E8F7EE;
+    text-align: center;
+}
+
+#content{
+    margin-top: 55px;
+    width: 100%;
+    position: absolute;
+    top:50%;
+    text-align: center;
+}
+
+
+#crags{
+    height: 50px;
+
+}
+
+#route{
+        
+
+}
+#reitti{
+    height: 50px;
+}
+
+
+
+
+
+
+body{
+    background-color: #1B2021;
+    overflow-x: hidden;
+}
+
+#kortti{
+    font-family: 'Roboto', sans-serif;
+     text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+  	font-size: 1em; 
+    font-weight: 400;
+    text-align: left;
+ position: relative;
+  left: 50%;
+    right: 70%;
+  transform: translateX(-50%);
+    margin-right: 0;
+    height:200px;
+    width:300px;
+    background-color:ghostwhite;
+    
+}
+
+#kortti span{
+    
+   position: absolute;
+    display: inline-block;
+    margin-left: 0;
+}
+#cragikortti{
+      font-family: 'Roboto', sans-serif;
+     text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+  	font-size: 1em; 
+    font-weight: 400;
+    text-align: left;
+ position: relative;
+  left: 50%;
+    right: 70%;
+  transform: translateX(-50%);
+    margin-right: 0;
+    height:200px;
+    width:300px;
+    background-color:ghostwhite;
+    
+}
+
+#routegrade{
+    position: absolute;
+    top:75px;
+}
+
+#routename{
+    position: absolute;
+    top:50px;
+}
+
+ #image{
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     background-color: crimson;
+
+     height: 150px;
+     width: 175px;
+ }
+
+
+.button{
+
+position: absolute;
+    bottom: 0;
+
+    
+}
+
+#attempt{
+    left: 90px;
+}
+
+#lopeta {
+    background: linear-gradient(#FF0000, #990000);
+    width: 50%;
+    margin: 10px auto 20px auto;
+    text-align: center;
+    padding: 1px;
+}
+
+#top-plus, #attempt-plus {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.clear{
+    width: 100%;
+}

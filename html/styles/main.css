@@ -1,0 +1,103 @@
+@import url('nav_bar.css');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    background-color: #1B2021;
+}
+
+#content {
+    margin-top: 45px;
+    padding-top: 1px;
+}
+
+#tervehdys_teksti {
+    text-align: center;
+    margin: 0 auto;
+    color: #F75C03;
+    padding: 15px;
+}
+
+#laatikot {
+    position: relative;
+    height: 356px;
+    width: 100%;
+}
+
+#laatikot > div {
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    position: absolute;
+    display: flex;
+    width: 45%;
+    height: 168px;
+    background: linear-gradient(#FF5F02, #CC4C02);
+}
+
+.laatikko_oik {
+    right: 0;
+}
+
+.laatikko_vas {
+    left: 0;   
+}
+
+#laatikkoOikYla, #laatikkoVasYla {
+    top: 0;
+
+}#laatikkoOikAla, #laatikkoVasAla {
+    bottom: 0;
+}
+
+#laatikkoVasYla > a {
+    color: black;
+}
+
+#laatikkoVasYla > a:hover {
+    font-weight: bold;
+}
+
+#laatikot > div:hover {
+    cursor: pointer;
+}
+
+.climb_kuva {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.kuvateksti {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+#sisa, #ulko {
+    display: flex;
+    height: 100%;
+    width: 45%;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+#ulko {
+    right: 0;
+}
+
+#statistiikka {
+    padding: 10px;
+    color: #F75C03;
+}

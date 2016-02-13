@@ -1,0 +1,105 @@
+.text{
+color: #E8F7EE;
+    text-align: center;
+}
+
+#kartta{
+    height:40vh;
+    width: 100%;
+    background: url(../images/google-map-placeholder.jpg);
+}
+
+#kortti{
+    height: 200px;
+    position: relative;
+    top: 5px;
+    
+    background-color: #EFEFEF;
+    
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow:0 1px 2px #aaa;
+    width: 300px;
+    
+}
+
+
+#uusireitti{
+    display: inline-block;
+}
+
+#vanha{
+    display: inline-block;
+}
+
+
+#reitin_nimi{
+    font-family: 'Droid Sans', sans-serif;
+    display: block;
+    position: relative;
+    top:65%;
+}
+
+
+#reitin_greidi{
+    font-family: 'Droid Sans', sans-serif;
+    display: block;
+    position: relative;
+    top: 70%;
+}
+
+
+#reitin_kuva{
+    font-family: 'Droid Sans', sans-serif;
+    display: flex;
+    position: absolute;
+    height:125px;
+    width: 40%;
+    top:0;
+    margin-right: 0;
+    margin-left: 60%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 50%;
+    overflow: hidden;
+    
+    
+}
+
+#upload{
+    position: relative;
+    top:50%;
+}
+
+
+
+#palikka{
+position:absolute;
+    bottom: 0;
+    left:0;
+    background-color: #F75C03;
+    display: block;
+    width:40%;
+    height: 175px;
+     font-family: 'Droid Sans', sans-serif;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+     color: #E8F7EE;
+    font-size: 2em;
+    padding-left: 5px;
+    
+    
+}
+
+
+
+
+ 
+
+body{
+    background-color: #1B2021;
+    overflow-x: hidden;
+}
+

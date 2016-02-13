@@ -1,0 +1,90 @@
+header {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right, #EFEFEF, #BFBFBF);
+    box-shadow: 0px 3px 5px #1B2021;
+}
+
+header a {
+    text-decoration: none; 
+    color: black;
+    padding: 8px;
+}
+
+
+header, header > div {
+    display: flex;
+}
+
+header > div {
+    height: 45px;
+    align-items: center;
+}
+
+#logo {
+    background-color: black;
+    border-right: 1px solid black;
+}
+
+#logo a{
+    font-family: 'Lobster', "trebuchet ms";
+color: #F75C03;
+}
+
+#logo:hover {
+    background-color: #DA4003;
+}
+
+#sivun_otsikko {
+    position: absolute;
+    right: 0;
+    left: 155px;
+    color: #1B2021;
+}
+
+nav, nav img { 
+    max-height: 45px;
+    margin: 0 0 0 auto;
+}
+
+#valikko {
+    position: fixed;
+    overflow: hidden;
+    top: -10px;
+    right: 0;
+    left: 139px;
+    bottom: 0;
+    background: linear-gradient(to right, #EFEFEF, #BFBFBF);
+    z-index: 2;
+    border-left: 1px solid black;
+}
+
+#valikko ul {
+    text-align: right;
+    margin-top: 68px;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+#valikko li {
+    margin-bottom: 11px;
+    border: 1px solid black;
+}
+
+#valikko a {
+    display: block;
+    padding: 9px;
+    color: black;
+    text-decoration: none;
+    background: linear-gradient(#FF5F02, #CC4C02);
+}
+
+#valikko input {
+    border: 0;
+    width: 100%;
+    text-align: right;
+}
+

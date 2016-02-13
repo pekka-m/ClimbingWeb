@@ -1,0 +1,172 @@
+body{
+    background-color: #1B2021;
+}
+#error_msg {
+    color: red;
+    position: absolute;
+    top: -20px;
+}
+
+
+#title{
+    font-family: 'Lobster', cursive;
+    color: #F75C03;
+display:block;
+  text-align: center;
+    font-size: 2em;
+   }
+
+#title h1{
+    white-space: nowrap;
+}
+
+
+.text_field:focus{
+    outline:none;
+    box-shadow: none;
+}
+
+
+.container{
+    max-width: 100%;
+}
+
+.label{
+}
+
+
+.text{
+    
+}
+#about{
+        position: absolute;
+    top: 100%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    width: 100%;
+    color: #E03616;
+    font-size: 1.2em;
+}
+
+#content{
+     position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top:0;
+}
+
+
+
+.log_in_form{
+position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.loggaus{
+    position: relative;
+}
+
+
+.text_field{
+    width: 85%;
+    position: relative;
+    display: inline-block;
+    border:none;
+    border-color:transparent;
+}
+
+.email{left: 10px;}
+
+.pwd{left: 20px;}
+
+.login, .register{
+    border-radius: 3px;
+    top: 10px;
+    position: relative;
+    display: inline-block;
+    width:45%;
+    height: 2.5em;
+    background: #e56c27;
+    border:none;
+    border-color: transparent;
+     font-family: 'Droid Sans', sans-serif;    
+
+}
+
+.register{
+    float: right;
+}
+
+
+
+
+.forgot, .no_register{
+    margin-top:1em;
+    position:relative;
+    top:15px;
+    display: block;
+    color:#E8F7EE;
+    text-decoration: none;
+ font-family: 'Droid Sans', sans-serif;    
+    font-size:0.9em;
+    text-align: center;
+}
+
+.forgot{
+    margin-top: 1.4em; 
+}
+
+.logbox{
+    border-radius: 5px 5px 5px 5px;
+    height: 80px;
+    background-color: white;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+#mail{
+    position:relative;
+    display: inline-block;
+    height: 25px;
+    top: 7px;
+    left:5px;
+}
+
+#lock{
+    position:relative;
+    display: inline-block;
+    height: 25px;
+    top:7px;
+    left:5px;
+    
+}
+
+.emailcontent{
+    display: block;
+    height:40px;
+    border-bottom: 1px solid #b2a5a5;
+}
+
+.passcontent{
+    display: block;
+    height: 39px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+input:-webkit-autofill:focus   {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+
+        
+
+
+        
